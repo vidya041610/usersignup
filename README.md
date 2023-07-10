@@ -10,9 +10,9 @@
 -CSS
 -JAVASCRIPT
 
-##Features
+#Features
 This app is having following features.
 -Form validation.
 
-##Run the application
+#Run the application
 Open the index.html on browser to see the application.
