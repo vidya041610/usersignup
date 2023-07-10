@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/front.css" />
+    <title>user page</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>User signup page</h2>
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter username" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="type">User Type:</label>
+          <select id="type" required>
+            <option value="">Select</option>
+          <option value="client">Client</option>
+          <option value="admin">Admin</option>
+         </select>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="contactNumber">ContactNumber</label>
+          <input type="text" id="contactNumber" placeholder="Enter contactNumber" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="city">City</label>
+          <input type="text" id="city" placeholder="Enter city" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="state">State</label>
+          <input type="text" id="state" placeholder="Enter State" />
+          <small>Error Message</small>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+    <script src="js/front.js"></script>
+  </body>
+</html>
